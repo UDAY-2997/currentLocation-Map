@@ -167,6 +167,7 @@ main {
 #map {
   height: 500px;
   width: 100vw;
+  margin-bottom: 60px;
 }
 
 .map-btn {
