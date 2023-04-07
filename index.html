@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap"
     rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
   <link rel="stylesheet" href="./assets/style/index.css" media="all" />
   <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
   <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
@@ -30,91 +31,183 @@
       </div>
       <nav>
         <ul>
-          <li><a href="../About page/index.html">About</a></li>
-          <li><a href="../Contact page/index.html">Contact</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Offers</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </nav>
-      <div class="icon-list">
-        <ul>
-          <li><i class="fa-solid fa-list-ul"></i><a href="#"></a></li>
-        </ul>
-      </div>
+
     </div>
   </header>
   <main>
     <section id="column">
       <div>
         <span>
-          <p class="sub">Welcome to the my area of develoment</p>
+          <p class="sub">Fast and Reliable Parcel Delivery Anywhere, Anytime</p>
           <p class="heading">
-            Focus on persent to,<br />
-            conquer the future
+            Parcel
           </p>
+          <p class="heading">Delivery Services</p>
         </span>
       </div>
     </section>
 
     <section id="mid" class="container flex">
       <div class="center">
-        <p class="heading">Front-end Development</p>
+        <p class="heading">Service and its benefits</p>
         <p class="sub-1">
-          Front-end developers are
-          <strong>the coders of all the user-facing elements of websites, web
-            applications, and mobile applications</strong>. They interpret the needs of the company and its customers
-          and
-          create easy-to-use, interactive web apps. Front-end developers must
-          be adept at both programming languages and design techniques.
+          <strong> Easy and Convenient:</strong> This point is emphasizing the convenience and ease of using the
+          delivery service.
+          Customers want a
+          hassle-free experience, so highlighting this can help draw them in.
+        </p>
+        <p class="sub-1"> <strong> Fast and Reliable:</strong> Customers want their deliveries to arrive quickly and on
+          time. Emphasizing
+          the speed and reliability
+          of the service can help reassure customers that their packages will arrive when they need them.
+        </p>
+        <p class="sub-1"> <strong> Competitive Pricing:</strong> Price is a big factor for many customers when choosing
+          a delivery
+          service. By highlighting
+          competitive pricing, you can draw in customers who are price-sensitive and looking for a good deal.
+        </p>
+        <p class="sub-1"> <strong> Flexible Delivery Options:</strong> Customers have busy lives and schedules, so
+          offering flexible
+          delivery options can help cater
+          to their needs. This point emphasizes that the delivery service can work around the customer's schedule,
+          rather than the
+          other way around.
+        </p>
+        <p class="sub-1"> <strong> Secure and Safe:</strong> Customers want to know that their packages are in good
+          hands and will arrive
+          safely. Emphasizing the
+          security and safety of the service can help give customers peace of mind and encourage them to choose the
+          service over
+          competitors.
         </p>
       </div>
       <div>
         <img src="./assets/images/deer.png" class="main-img" alt="deer" />
       </div>
     </section>
-
-    <div id="map">
-      <button class="map-btn">Check the location</button>
+    <div class="map-head">
+      You can track you orders with our live map facility.
     </div>
+    <div id="map">
+      <!-- <button class="map-btn">Check the location</button> -->
+    </div>
+    <section id="heading" class="container contact-head name1">
+      <h1> need help, fill the form</h1>
+      <p>We would love to respond to your querries and help you succeed.</p>
+      <p> Feel Free to get in touch with us</p>
+    </section>
+    <section id="form">
+      <div class="container">
+        <div class="contact">
+          <div class="contact-left page3-box">
+            <h3>Send your request</h3>
+            <form>
+              <div class="input">
+                <div class="input-info">
+                  <label for="name">Name</label>
+                  <input type="name" id="text" name="name" placeholder="Full Name" required>
+                </div>
 
-    <section id="four-column" class="container flex">
-      <div class="first-col">
-        <span>
-          <h2>HTML5</h2>
-        </span>
-        <img src="./assets/images/html.png" alt="HTML" />
-        <a href="https://github.com/UDAY-2997/MITT-HTML5-CSS3" target="_blank" class="know-btn">See projects</a>
-      </div>
-      <div class="second-col">
-        <span>
-          <h2>CSS3</h2>
-        </span>
-        <img src="./assets/images/css.png" alt="CSS" />
-        <a href="https://github.com/UDAY-2997/MITT-HTML5-CSS3" target="_blank" class="know-btn">See projects</a>
-      </div>
-      <div class="third-col">
-        <span>
-          <h2>javaScript</h2>
-        </span>
-        <img src="./assets/images/js.png" alt="javaScript" />
-        <a href="https://github.com/UDAY-2997/MITT-HTML5-CSS3" target="_blank" class="know-btn">See projects</a>
-      </div>
-      <div class="fourth-col">
-        <span>
-          <h2>React</h2>
-        </span>
-        <img src="./assets/images/react.png" alt="React" />
-        <a href="https://github.com/UDAY-2997/MITT-HTML5-CSS3" target="_blank" class="know-btn">See projects</a>
+                <div class="input-info">
+                  <label for="number">Phone</label>
+                  <input type="number" id="number" name="number" placeholder="+1 123 456 7890" required>
+                </div>
+              </div>
+
+              <div class="input">
+                <div class="input-info">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" placeholder="abc@xyz.com" required>
+                </div>
+
+
+                <div class="input-info">
+                  <label for="name">Address</label>
+                  <input type="name" id="name" name="name" placeholder="Enter your address here">
+                </div>
+              </div>
+              <label>Message</label>
+              <textarea name="Msg" id="msg" placeholder="Enter Your Message" rows="5"></textarea>
+              <div class="btn">
+                <button class="btn-1" type="name">Submit</button>
+                <button class="btn-2" type="reset">Reset</button>
+              </div>
+            </form>
+          </div>
+          <div class="contact-right page3-box-1">
+            <h3>Reach us</h3>
+            <table>
+              <tr>
+                <td>Email:</td>
+                <td>udaythakur.shely@gmail.com</td>
+              </tr>
+              <tr>
+                <td>Phone:</td>
+                <td>+1 123 456 7890</td>
+              </tr>
+              <tr>
+                <td>Address:</td>
+                <td>123 mayfair place, winnipeg</td>
+              </tr>
+            </table>
+            <div class="social">
+              <a href="#"><i class="fa-brands fa-github"></i></a>
+              <a href="#"><i class="fa-brands fa-discord"></i></a>
+              <a href="#"><i class="fa-brands fa-telegram"></i></a>
+              <a href="#"><i class="fa-brands fa-dropbox"></i></a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-    <section class="cta">
-      <div>
-        <p class="btn-head">
-          Find more about me and my upcoming projects, please Click Below
-        </p>
-      </div>
-      <div>
-        <button>
-          <a href="../About page/index.html">Click here </a>
-        </button>
+    <section id="features">
+      <div class="container">
+        <div class="name1">
+          <h1>WHAT SETS US APART?</h1>
+        </div>
+        <div class="our-features-small-text">
+          <p>We are constantly developing to meet
+            the
+            expectations of our customers.</p>
+        </div>
+        <div id="row">
+
+          <div class="card page3-box-1">
+            <div class="card-block block-1">
+              <h3 class="card-title">Fast delivery</h3>
+              <p class="card-text">We care about our customers' satisfaction and promptly fulfill
+                orders by fast delievery methods.</p>
+              <a href="#" title="See more" class="read-more">See more
+            </div>
+          </div>
+
+          <div class="card page3-box-1">
+            <div class="card-block block-2">
+              <h3 class="card-title">Low prices</h3>
+              <p class="card-text">As a long-term partner of one of the largest distribution networks
+                in
+                Poland, we can offer you attractive prices.</p>
+              <a href="#" title="See more" class="read-more">See more
+            </div>
+          </div>
+
+          <div class="card page3-box-1">
+            <div class="card-block block-3">
+              <h3 class="card-title">Collaboration</h3>
+              <p class="card-text">We are open to long-term collaboration with our clients. We work
+                with
+                installers on convenient terms.</p>
+              <a href="#" title="See more" class="read-more">See more
+            </div>
+          </div>
+
+        </div>
       </div>
     </section>
   </main>
